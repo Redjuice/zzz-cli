@@ -1,0 +1,8 @@
+47 error Error: Command failed with exit code 128: git tag v1.0.1 -m v1.0.1
+47 error fatal: tag 'v1.0.1' already exists
+47 error     at makeError (D:\BaiduNetdiskDownload\study\zzz-cli\node_modules\execa\lib\error.js:59:11)
+47 error     at handlePromise (D:\BaiduNetdiskDownload\study\zzz-cli\node_modules\execa\index.js:114:26)
+47 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+47 error     at async VersionCommand.gitCommitAndTagVersion (D:\BaiduNetdiskDownload\study\zzz-cli\node_modules\lerna\dist\index.js:8549:9)
+47 error     at async VersionCommand.commitAndTagUpdates (D:\BaiduNetdiskDownload\study\zzz-cli\node_modules\lerna\dist\index.js:8513:18)
+47 error     at async Promise.all (index 0)
