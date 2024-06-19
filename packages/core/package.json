@@ -1,6 +1,6 @@
 {
   "name": "@zzz-cli/core",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "zzz-cli core",
   "author": "wangheng <wangheng@vchangyi.com>",
   "homepage": "",
@@ -18,5 +18,9 @@
   ],
   "scripts": {
     "test": "node ./__tests__/core.test.js"
+  },
+  "gitHead": "ad6add4e00c850105be44ab0d106916d38a5eefc",
+  "publishConfig": {
+    "access": "public"
   }
 }
