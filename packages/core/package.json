@@ -5,6 +5,9 @@
   "author": "wangheng <wangheng@vchangyi.com>",
   "homepage": "",
   "license": "ISC",
+  "bin": {
+    "zzz-cli": "./lib/index.js"
+  },
   "main": "lib/core.js",
   "directories": {
     "lib": "lib",
