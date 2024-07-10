@@ -5,8 +5,9 @@
   "author": "wangheng <wangheng@vchangyi.com>",
   "homepage": "",
   "license": "ISC",
+  "type": "module",
   "bin": {
-    "zzz-cli": "./lib/index.js"
+    "zzz-cli": "./bin/index.js"
   },
   "main": "lib/core.js",
   "directories": {
@@ -22,5 +23,20 @@
   "gitHead": "ad6add4e00c850105be44ab0d106916d38a5eefc",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@zzz-cli/log": "file:../../utils/log",
+    "@zzz-cli/get-npm-info": "file:../../utils/get-npm-info",
+    "axios": "^1.7.2",
+    "chalk": "^5.3.0",
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "import-local": "^3.1.0",
+    "minimist": "^1.2.8",
+    "path-exists": "^5.0.0",
+    "root-check": "^2.0.0",
+    "semver": "^7.6.2",
+    "url-join": "^5.0.0",
+    "user-home": "^3.0.0"
   }
 }
