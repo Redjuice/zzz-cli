@@ -1,6 +1,6 @@
 {
   "name": "@zzz-cli/core",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "zzz-cli core",
   "author": "wangheng <wangheng@vchangyi.com>",
   "homepage": "",
@@ -25,8 +25,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@zzz-cli/log": "file:../../utils/log",
     "@zzz-cli/get-npm-info": "file:../../utils/get-npm-info",
+    "@zzz-cli/log": "file:../../utils/log",
     "axios": "^1.7.2",
     "chalk": "^5.3.0",
     "colors": "^1.4.0",
